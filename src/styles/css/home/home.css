@@ -11,3 +11,12 @@
     overflow-x: hidden;
     color: #fff;
 }
+
+.align-center-div {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}

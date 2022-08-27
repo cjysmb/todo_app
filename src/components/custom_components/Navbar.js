@@ -8,9 +8,9 @@ const Navbar = props => {
                 <h1> To do application</h1>
             </div>
             <div>
-                <h2>
-                    Put something here
-                </h2>
+                <a href="dashboard" className="navbar-link">
+                    Dashboard
+                </a>
             </div>
         </nav>
     )

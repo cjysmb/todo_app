@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import DragDrop from './DragDrop';
 
-const Container = props => {
+const Container = ({taskHeader, task}) => {
 
     return (
-        <section>
-            <header>
-                <h1>Task type</h1>
-            </header>
+        <section className="card">
+            <div className="card-header">
+                <h1>{taskHeader}</h1>
+            </div>
             <div>   
-                <h2>Body </h2>
+                <DragDrop taskType={task} />
             </div>
         </section>
     )
