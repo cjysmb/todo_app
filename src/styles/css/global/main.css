@@ -1,0 +1,18 @@
+.main-bg {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../../../static/backgrounds/asphalt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+.navbar-fixed-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    color: #fff;
+}

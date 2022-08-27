@@ -1,0 +1,13 @@
+.home-main {
+    padding: 16px 32px;
+}
+
+.home-sub {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    color: #fff;
+}
