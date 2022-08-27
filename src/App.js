@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './styles/css/home/home.css';
 import './styles/css/global/main.css';
 import './styles/css/global/date.css';
+import NotFound from './components/404/NotFound';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Home />
           </Main>
         } />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

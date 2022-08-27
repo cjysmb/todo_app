@@ -16,3 +16,24 @@
     padding: 16px 32px;
     color: #fff;
 }
+
+.navbar-link {
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 500;
+    text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #fff;
+}
+
+.not-found {
+    font-weight: bold;
+    font-size: 6em;
+    color: #000;
+}
+
+.back-home {
+    font-size: 4em !important;
+    color: navy;
+    font-weight: 500;
+}
