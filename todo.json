@@ -1,0 +1,34 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "title": "To do app",
+      "content": "Create to do app like gitlab dashboard",
+      "type": "todo"
+    },
+    {
+      "id": 2,
+      "title": "Drag and drop",
+      "content": "Creating a drag and drop div for changing state",
+      "type": "done"
+    },
+    {
+      "id": 3,
+      "title": "Homepage",
+      "content": "Finished a homepage for to do app",
+      "type": "done"
+    },
+    {
+      "id": 4,
+      "title": "Date",
+      "content": "Finished a Date component",
+      "type": "todo"
+    },
+    {
+      "id": 5,
+      "title": "Quote",
+      "content": "Finished a Quote of the day component",
+      "type": "doing"
+    }
+  ]
+}
