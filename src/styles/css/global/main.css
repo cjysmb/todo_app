@@ -17,6 +17,11 @@
     color: #fff;
 }
 
+.navbar-header-link {
+    color: #fff;
+    text-decoration: none;
+}
+
 .navbar-link {
     color: #fff;
     opacity: 0.7;

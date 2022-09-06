@@ -10,7 +10,6 @@ const Quote = () => {
             const response = await axios.get(baseURL);
 
             setQuote(response.data.contents.quotes)
-            console.log(response.data.contents.quotes)
         }
 
         catch (e) {

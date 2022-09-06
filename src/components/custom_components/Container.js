@@ -4,14 +4,14 @@ import DragDrop from './DragDrop';
 const Container = ({taskHeader, task}) => {
 
     return (
-        <section className="card">
+        <div className="card">
             <div className="card-header">
                 <h1>{taskHeader}</h1>
             </div>
-            <div>   
+            <div className="card-dnd">   
                 <DragDrop taskType={task} />
             </div>
-        </section>
+        </div>
     )
 }
 

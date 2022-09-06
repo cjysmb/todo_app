@@ -2,8 +2,22 @@
     background-color: #f5f5f4;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* padding: 16px; */
+    width: 30%;
+}
+
+.card-header {
+    background-color: #fff;
+    position: fixed;
+    border-radius: 8px;
+    width: 30%;
+    padding-left: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-dnd {
     padding: 16px;
-    width: 30vw;
+    margin-top: 5vw;
 }
 
 .container-div {
@@ -12,6 +26,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 
 .list-none {
     margin: 0;
@@ -25,6 +40,7 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     color: #000;
     margin-bottom: 16px;
+    height: 80px;
 }
 
 .list-title {
@@ -35,4 +51,22 @@
 .list-content {
     font-size: 1em;
     font-weight: normal;
+}
+
+@media screen and (max-width: 1080px) {
+
+    .card-header {
+        width: 30%;
+    }
+
+    .card {
+        overflow: auto;
+        margin-top: 2vh;
+    }
+
+    .card-dnd {
+        padding: 16px;
+        margin-top: 10vh;
+    }
+
 }

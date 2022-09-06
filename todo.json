@@ -4,7 +4,7 @@
       "id": 1,
       "title": "To do app",
       "content": "Create to do app like gitlab dashboard",
-      "type": "todo"
+      "type": "doing"
     },
     {
       "id": 2,
@@ -16,19 +16,19 @@
       "id": 3,
       "title": "Homepage",
       "content": "Finished a homepage for to do app",
-      "type": "done"
+      "type": ""
     },
     {
       "id": 4,
       "title": "Date",
       "content": "Finished a Date component",
-      "type": "todo"
+      "type": "done"
     },
     {
       "id": 5,
       "title": "Quote",
       "content": "Finished a Quote of the day component",
-      "type": "doing"
+      "type": "todo"
     }
   ]
 }
