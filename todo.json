@@ -4,7 +4,7 @@
       "id": 1,
       "title": "To do app",
       "content": "Create to do app like gitlab dashboard",
-      "type": "doing"
+      "type": "todo"
     },
     {
       "id": 2,
